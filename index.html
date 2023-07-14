@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="folder_scss\main.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="gauche">
+      <h2>Learn to code by watching others</h2>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div class="droite">
+      <div class="formulaire">
+        <p class="try"><span>Try it free 7 days then </span> $20/mo. thereafter</p>
+        <form action="/" method="post">
+          <div class="remplissage">
+            <div class="put">
+              <input type="text" placeholder="First Name" id="First Name" value="">
+            </div>
+            <p class="hidden active">First Name cannot be empty</p>
+          </div>
+          <div class="remplissage">
+            <div class="put">
+              <input type="text" placeholder="Last Name" id="Last Name" value="">
+            </div>
+            <p class="hidden active">Last Name cannot be empty</p>
+          </div>
+          <div class="remplissage">
+            <div class="put">
+              <input type="email" name="" id="email" placeholder="Email Address" value="">
+            </div>
+            <p class="hidden active">Look like this is not an email</p>
+          </div>
+          <div class="remplissage">
+            <div class="put">
+              <input type="password" name="/" id="password" placeholder="Password" value="">
+            </div>
+            <p class="hidden active">password cannot be empty</p>
+          </div>
+          <button type="button" id="submit"> CLAIM YOUR FREE TRIAL</button>
+          <p class="terms"> By clicking the button, you are agreeing to our <a href="/">Terms and Services</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Franck Djissou Happi</a>.
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
