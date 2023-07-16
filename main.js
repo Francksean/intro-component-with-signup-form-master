@@ -1,5 +1,5 @@
-let firstName = document.getElementById('FirstName');
-let lastName = document.getElementById('LasrtName');
+let firstName = document.getElementById('First Name');
+let lastName = document.getElementById('Lasrt Name');
 let email = document.getElementById('email');
 let password = document.getElementById('password');
 
